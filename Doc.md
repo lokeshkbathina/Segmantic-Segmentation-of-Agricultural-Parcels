@@ -1,5 +1,5 @@
 # Data
-S2 --> 128x128 Image - 10 bands - 10m _(varies across bands?)_ - 43 dates so (43, 10, 128, 128)<br>
+__S2__ --> 128x128 Image - 10 bands - 10m _(varies across bands?)_ - 43 dates so (43, 10, 128, 128)<br>
 
 TODO<br>
 Annotations --> panoptic: instance segmentation + semantic segmentation<br>
