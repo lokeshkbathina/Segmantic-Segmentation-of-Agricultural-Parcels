@@ -1,0 +1,1 @@
+# Segmantic-Segmentation-of-Agricultural-Parcels
