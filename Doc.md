@@ -19,6 +19,6 @@ __S1__ --> 128x128 Image - __ bands - __m _(varies across bands?)_ - 70+70 dates
 
 # Note
 *All bands are resampled to a 10m/pixel resolution with bilinear interpolation<br>
-*asfd [S2 Bands](https://content.satimagingcorp.com/media2/filer_public_thumbnails/filer_public/44/9c/449caa01-64b9-417f-9547-964b66465554/cms_page_media1530image001.png__525.0x426.0_q85_subsampling-2.jpg)
+*All Bands except the atmospheric bands B01, B09, and B10 [S2 Bands](https://content.satimagingcorp.com/media2/filer_public_thumbnails/filer_public/44/9c/449caa01-64b9-417f-9547-964b66465554/cms_page_media1530image001.png__525.0x426.0_q85_subsampling-2.jpg)<br>
 **(T, C, H, W)
 
