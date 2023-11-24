@@ -4,11 +4,11 @@ __Patch__ --> 1 sq km2 area<br>
 __S2__ --> 128x128 Image - 10 bands - 10 m* - 43 dates<br>
 __Annotations__ --> ANNOTATIONS (ParcelIDs, TARGET) + INSTANCE ANNOTATIONS (HEATMAP, INSTANCES, ZONES)
 
-S2          --> (43, 10, 128, 128)**
-ParcelIDs   --> (128, 128)
-TARGET      --> (3, 128, 128)
-HEATMAP     --> (128, 128)
-INSTANCES   --> (128, 128)
+S2          --> (43, 10, 128, 128)**<br>
+ParcelIDs   --> (128, 128)<br>
+TARGET      --> (3, 128, 128)<br>
+HEATMAP     --> (128, 128)<br>
+INSTANCES   --> (128, 128)<br>
 ZONES       --> (128, 128)
 
 --> panoptic: instance segmentation + semantic segmentation<br>
