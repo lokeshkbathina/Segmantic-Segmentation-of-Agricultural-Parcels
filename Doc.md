@@ -2,7 +2,13 @@
 __Patch__ --> 1 sq km2 area<br>
 
 __S2__ --> 128x128 Image - 10 bands - 10 m* - 43 dates<br>
-__Annotations__ --> ANNOTATIONS (ParcelIDs, TARGET) + INSTANCE ANNOTATIONS (HEATMAP, INSTANCES, ZONES)
+__Annotations__ --> ANNOTATIONS (ParcelIDs, TARGET) + INSTANCE ANNOTATIONS (HEATMAP, INSTANCES, ZONES)<br>
+
+ANNOTATIONS - Semantic?<br>
+INSTANCE ANNOTATIONS - Instance?
+
+_Semantic segmentation_ involves classifying each pixel in an image into predefined classes or categories. Each pixel is assigned a label that represents the category it belongs to.<br>
+_Instance segmentation_ goes a step further by not only assigning semantic labels to pixels but also distinguishing between individual instances of the same class. Each object or instance in the image is assigned a unique identifier.
 
 | -         | -                  |
 |-----------|:------------------:|
