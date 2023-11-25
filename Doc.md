@@ -10,14 +10,17 @@ INSTANCE ANNOTATIONS - Instance?
 _Semantic segmentation_ involves classifying each pixel in an image into predefined classes or categories. Each pixel is assigned a label that represents the category it belongs to.<br>
 _Instance segmentation_ goes a step further by not only assigning semantic labels to pixels but also distinguishing between individual instances of the same class. Each object or instance in the image is assigned a unique identifier.
 
-| -         | -                  |
-|-----------|:------------------:|
-| S2        | (43, 10, 128, 128) |
+__Each patch pixel is annotated with a semnatic label (class) corresponsing to either the parcels' crop type or the background class.__ <br>
+__The pixels of each unique parcel in the patch receive a corresponsing instance label.__
+
+| -         | -                  | -       |       
+|-----------|:------------------:|---------|
+| S2        | (43, 10, 128, 128) | YES     |
 | ParcelIDs | (128, 128)         |
 | TARGET    | (3, 128, 128)      |
-| HEATMAP   | (128, 128)         |
-| INSTANCES | (128, 128)         |
-| ZONES     | (128, 128)         |
+| HEATMAP   | (128, 128)         | aon NO  |
+| INSTANCES | (128, 128)         | 
+| ZONES     | (128, 128)         | aon NO  |
 
 --> panoptic: instance segmentation + semantic segmentation<br>
 i.e., instance index + semantic label for each pixel<br>
