@@ -13,11 +13,11 @@ _Instance segmentation_ goes a step further by not only assigning semantic label
 __Each patch pixel is annotated with a semnatic label (class) corresponsing to either the parcels' crop type or the background class.__ <br>
 __The pixels of each unique parcel in the patch receive a corresponsing instance label.__
 
-| -         | -                  | -       |       
+| -         | -                  | -       | Pixel Values |      
 |-----------|:------------------:|---------|
 | S2        | (43, 10, 128, 128) | YES     |
 | ParcelIDs | (128, 128)         |
-| TARGET    | (3, 128, 128)      |
+| TARGET    | (3, 128, 128)      |         | Class Values |
 | HEATMAP   | (128, 128)         | aon NO  |
 | INSTANCES | (128, 128)         | 
 | ZONES     | (128, 128)         | aon NO  |
