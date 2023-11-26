@@ -17,7 +17,7 @@ __The pixels of each unique parcel in the patch receive a corresponsing instance
 |-----------|:------------------:|---------|:------------:|
 | S2        | (43, 10, 128, 128) | YES     |              |
 | ParcelIDs | (128, 128)         |         |              |
-| TARGET    | (3, 128, 128)      |         | Class Values |
+| TARGET    | (3, 128, 128)      |         |              |
 | HEATMAP   | (128, 128)         | aon NO  |              |
 | INSTANCES | (128, 128)         |         |              |
 | ZONES     | (128, 128)         | aon NO  |              |
