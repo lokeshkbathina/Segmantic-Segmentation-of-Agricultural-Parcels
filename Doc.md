@@ -14,7 +14,7 @@ __Each patch pixel is annotated with a semnatic label (class) corresponsing to e
 __The pixels of each unique parcel in the patch receive a corresponsing instance label.__
 
 | -         | -                  | -       | Pixel Values |      
-|-----------|:------------------:|---------| Class Values |
+|-----------|:------------------:|---------|--------------|
 | S2        | (43, 10, 128, 128) | YES     | Class Values |
 | ParcelIDs | (128, 128)         |         | Class Values |
 | TARGET    | (3, 128, 128)      |         | Class Values |
